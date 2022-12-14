@@ -115,6 +115,10 @@ int get_arguments(
         return 1;
     }
 
+    if (*reference && *whole) {
+        fprintf(stderr, "Reference option (-r) as well as whole option (-w) were selected. The reference option will be ignored.\n");
+    }
+
     return 0;
 }
 
@@ -409,6 +413,105 @@ int calc_position(
     return 0;
 }
 
+/*! @brief Unpacks dimensionality. Returns 0, if successful, else returns 1. */
+static int unpack_dimensionality_string(const dimensionality_t dim, char *string)
+{
+    switch (dim) {
+    case dimensionality_xyz:
+        strncpy(string, "xyz", 4);
+        break;
+    case dimensionality_xy:
+        strncpy(string, "xy", 3);
+        break;
+    case dimensionality_xz:
+        strncpy(string, "xz", 3);
+        break;
+    case dimensionality_yz: 
+        strncpy(string, "yz", 3);
+        break;
+    case dimensionality_x:
+        strncpy(string, "x", 2);
+        break;
+    case dimensionality_y:
+        strncpy(string, "y", 2);
+        break;
+    case dimensionality_z:
+        strncpy(string, "z", 2);
+        break;
+    default:
+        fprintf(stderr, "Internal unpack_dimensionality_string() error. Unknown dimensionality. This should never happen.\n");
+        return 1;
+    }
+
+    return 0;
+}
+
+int calc_distance(
+        system_t *system,
+        const char *xtc_file,
+        const atom_selection_t *selection1,
+        const atom_selection_t *selection2,
+        const char *selection1_query,
+        const char *selection2_query,
+        const int timewise,
+        const int whole,
+        const int reference,
+        const dimensionality_t dim,
+        const char *output_file)
+{
+    char dimensions[4] = "";
+    if (unpack_dimensionality_string(dim, dimensions) != 0) return 1;
+
+    // if no xtc file is supplied, analyze the current state of the system
+    if (xtc_file == NULL) {
+        if (whole) {
+            vec_t center1 = {0.0};
+            vec_t center2 = {0.0};
+            center_of_geometry(selection1, center1, system->box);
+            center_of_geometry(selection2, center2, system->box);
+            
+            printf("%s-distance between the centers of selection '%s' and '%s': %.3f\n", dimensions, selection1_query, selection2_query, 
+                    calc_distance_dim(center1, center2, dim, system->box, 1));
+        } else {
+            // open output file
+            FILE *output = fopen(output_file, "w");
+            if (output == NULL) {
+                fprintf(stderr, "Could not open output file '%s'\n", output_file);
+                return 1;
+            }
+
+            if (reference) {
+                vec_t center2 = {0.0};
+                center_of_geometry(selection2, center2, system->box);
+
+                fprintf(output, "%s-distances between the atoms of selection '%s' and center of selection '%s'.\n", dimensions, selection1_query, selection2_query);
+                for (size_t i = 0; i < selection1->n_atoms; ++i) {
+                    atom_t *atom = selection1->atoms[i];
+                    fprintf(output, "Atom %s (id: %d) of residue %s (resid: %d):    %.3f\n", atom->atom_name, atom->atom_number, atom->residue_name, atom->residue_number,
+                            calc_distance_dim(atom->position, center2, dim, system->box, 1));
+                }
+
+            } else {
+
+                fprintf(output, "%s-distances between the atoms of selections '%s' and '%s'.\n", dimensions, selection1_query, selection2_query);
+                for (size_t i = 0; i < selection1->n_atoms; ++i) {
+                    atom_t *atom1 = selection1->atoms[i];
+                    fprintf(output, "Atom %s (id: %d) of residue %s (resid: %d):\n", atom1->atom_name, atom1->atom_number, atom1->residue_name, atom1->residue_number);
+                    for (size_t j = 0; j < selection2->n_atoms; ++j) {
+                        atom_t *atom2 = selection2->atoms[j];
+                        fprintf(output, ">>> Atom %s (id: %d) of residue %s (resid: %d):   %.3f\n", atom2->atom_name, atom2->atom_number, atom2->residue_name, atom2->residue_number,
+                                calc_distance_dim(atom1->position, atom2->position, dim, system->box, 1));
+                    }
+                }
+
+            }
+        }
+    }
+
+    return 0;
+
+}
+
 int main(int argc, char **argv)
 {
     // get arguments
@@ -466,14 +569,14 @@ int main(int argc, char **argv)
             return 1;
         }
 
-        /*if (calc_distance(void) != 0) {
+        if (calc_distance(system, xtc_file, selection1, selection2, selection1_query, selection2_query, timewise, whole, reference, dim, output_file) != 0) {
             dict_destroy(ndx_groups);
             free(all);
             free(system);
             free(selection1);
             free(selection2);
             return 1;
-        }*/
+        }
 
         free(selection2);
     // calculate position of selection1

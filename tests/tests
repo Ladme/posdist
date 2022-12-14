@@ -11,14 +11,21 @@ test_test() {
     if [ $? -eq 0 ]; then 
 	echo "OK"
     else
-	echo "FAILED"
+	echo "NOK [INCORRECT OUTPUT]"
 	FAILED_TESTS=$(( $FAILED_TESTS + 1 ))
     fi
 }
 
 run_test_file() {
     printf "%-70s" "Test #${N_TESTS}: posdist $1 "
-    ${SCRIPT_DIR}/../posdist $1 -o tmp${N_TESTS}.dat > /dev/null
+    ${SCRIPT_DIR}/../posdist $1 -o tmp${N_TESTS}.dat >/dev/null 2>/dev/null
+    
+    if [ $? -ne 0 ]; then
+        echo "NOK [RUN FAILED]"
+        FAILED_TESTS=$(( $FAILED_TESTS + 1 ))
+        N_TESTS=$(( $N_TESTS + 1 ))
+        return 1
+    fi
     
     test_test "tmp${N_TESTS}.dat" "${SCRIPT_DIR}/expected/test${N_TESTS}.dat"
     N_TESTS=$(( $N_TESTS + 1 ))
@@ -26,7 +33,14 @@ run_test_file() {
 
 run_test_stdout() {
     printf "%-70s" "Test #${N_TESTS}: posdist $1 "
-    ${SCRIPT_DIR}/../posdist $1 > tmp${N_TESTS}.dat
+    ${SCRIPT_DIR}/../posdist $1 >tmp${N_TESTS}.dat 2>/dev/null
+    
+    if [ $? -ne 0 ]; then 
+	echo "NOK [RUN FAILED]"
+	FAILED_TESTS=$(( $FAILED_TESTS + 1 ))
+	N_TESTS=$(( $N_TESTS + 1 ))
+	return 1
+    fi
     
     test_test "tmp${N_TESTS}.dat" "${SCRIPT_DIR}/expected/test${N_TESTS}.dat"
     N_TESTS=$(( $N_TESTS + 1 ))
@@ -67,29 +81,27 @@ if [ ${PWD} != ${SCRIPT_DIR} ]; then
     cp ${SCRIPT_DIR}/md.gro ${SCRIPT_DIR}/md.xtc ${SCRIPT_DIR}/index.ndx .
 fi
 
+# tests for position calculations
 run_test_file "-c md.gro -s Membrane"
-
 run_test_file "-c md.gro -s Membrane -y -z"
-
 run_test_stdout "-c md.gro -s Membrane -w"
-
 run_test_stdout "-c md.gro -s Membrane -w -x -y"
-
 run_test_file "-c md.gro -f md.xtc -s Membrane"
-
 run_test_file "-c md.gro -f md.xtc -s Membrane -x"
-
 run_test_stdout "-c md.gro -f md.xtc -s Membrane -w"
-
 run_test_stdout "-c md.gro -f md.xtc -s Membrane -w -x -z"
-
 run_test_file "-c md.gro -f md.xtc -s Protein -t"
-
 run_test_file "-c md.gro -f md.xtc -s Protein -t -z"
-
 run_test_file "-c md.gro -f md.xtc -s Membrane -w -t"
-
 run_test_file "-c md.gro -f md.xtc -s Membrane -w -t -y"
+
+# tests for distance calculations
+run_test_file "-c md.gro -a Membrane -b Protein"
+run_test_file "-c md.gro -s Membrane -b Protein -x -y"
+run_test_stdout "-c md.gro -a Membrane -b Protein -w"
+run_test_stdout "-c md.gro -a Membrane -b Protein -w -x"
+run_test_file "-c md.gro -a Protein -b Membrane -r"
+run_test_file "-c md.gro -a Protein -b Membrane -r -y -z"
 
 if [ ${PWD} != ${SCRIPT_DIR} ]; then
     rm -f md.gro md.xtc index.ndx
