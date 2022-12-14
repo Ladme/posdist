@@ -1,0 +1,95 @@
+#!/bin/bash
+
+N_TESTS=1
+FAILED_TESTS=0
+
+test_test() {
+    diff $1 $2 >/dev/null 2>/dev/null
+    
+    if [ $? -eq 0 ]; then 
+	echo "OK"
+    else
+	echo "FAILED"
+	FAILED_TESTS=$(( $FAILED_TESTS + 1 ))
+    fi
+}
+
+run_test_file() {
+    printf "%-70s" "Test #${N_TESTS}: posdist $1 "
+    ../posdist $1 -o tmp${N_TESTS}.dat > /dev/null
+    
+    test_test "tmp${N_TESTS}.dat" "expected/test${N_TESTS}.dat"
+    N_TESTS=$(( $N_TESTS + 1 ))
+}
+
+run_test_stdout() {
+    printf "%-70s" "Test #${N_TESTS}: posdist $1 "
+    ../posdist $1 > tmp${N_TESTS}.dat
+    
+    test_test "tmp${N_TESTS}.dat" "expected/test${N_TESTS}.dat"
+    N_TESTS=$(( $N_TESTS + 1 ))
+}
+
+if [ ! -f ../posdist ]; then
+    echo "No binary file 'posdist' detected in '..'."
+    echo "Compile the posdist program using 'make groan=PATH_TO_GROAN_LIBRARY'."
+    echo "No tests were run."
+    exit 1
+fi
+
+if [ ! -f md.gro ]; then
+    echo "No md.gro file detected in the directory."
+    echo "No tests were run."
+    exit 1
+fi
+
+if [ ! -f md.xtc ]; then
+    echo "No md.xtc file detected in the directory."
+    echo "No tests were run."
+    exit 1
+fi
+
+if [ ! -f index.ndx ]; then
+    echo "No index.ndx file detected in the directory."
+    echo "No tests were run."
+    exit 1
+fi
+
+if [ ! -d expected ]; then
+    echo "No 'expected' directory detected."
+    echo "No tests were run."
+    exit 1
+fi
+
+run_test_file "-c md.gro -s Membrane"
+
+run_test_file "-c md.gro -s Membrane -y -z"
+
+run_test_stdout "-c md.gro -s Membrane -w"
+
+run_test_stdout "-c md.gro -s Membrane -w -x -y"
+
+run_test_file "-c md.gro -f md.xtc -s Membrane"
+
+run_test_file "-c md.gro -f md.xtc -s Membrane -x"
+
+run_test_stdout "-c md.gro -f md.xtc -s Membrane -w"
+
+run_test_stdout "-c md.gro -f md.xtc -s Membrane -w -x -z"
+
+run_test_file "-c md.gro -f md.xtc -s Protein -t"
+
+run_test_file "-c md.gro -f md.xtc -s Protein -t -z"
+
+run_test_file "-c md.gro -f md.xtc -s Membrane -w -t"
+
+run_test_file "-c md.gro -f md.xtc -s Membrane -w -t -y"
+
+if [ $FAILED_TESTS -eq 0 ]; then
+    echo "All tests passed. Removing temporary files."
+    rm -f tmp*.dat
+    exit 0;
+else 
+    echo "$FAILED_TESTS test(s) failed. Diff temporary files for more information."
+    exit $FAILED_TESTS
+fi
