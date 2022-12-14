@@ -1,5 +1,7 @@
 #!/bin/bash
 
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+PWD=$(pwd)
 N_TESTS=1
 FAILED_TESTS=0
 
@@ -16,49 +18,53 @@ test_test() {
 
 run_test_file() {
     printf "%-70s" "Test #${N_TESTS}: posdist $1 "
-    ../posdist $1 -o tmp${N_TESTS}.dat > /dev/null
+    ${SCRIPT_DIR}/../posdist $1 -o tmp${N_TESTS}.dat > /dev/null
     
-    test_test "tmp${N_TESTS}.dat" "expected/test${N_TESTS}.dat"
+    test_test "tmp${N_TESTS}.dat" "${SCRIPT_DIR}/expected/test${N_TESTS}.dat"
     N_TESTS=$(( $N_TESTS + 1 ))
 }
 
 run_test_stdout() {
     printf "%-70s" "Test #${N_TESTS}: posdist $1 "
-    ../posdist $1 > tmp${N_TESTS}.dat
+    ${SCRIPT_DIR}/../posdist $1 > tmp${N_TESTS}.dat
     
-    test_test "tmp${N_TESTS}.dat" "expected/test${N_TESTS}.dat"
+    test_test "tmp${N_TESTS}.dat" "${SCRIPT_DIR}/expected/test${N_TESTS}.dat"
     N_TESTS=$(( $N_TESTS + 1 ))
 }
 
-if [ ! -f ../posdist ]; then
-    echo "No binary file 'posdist' detected in '..'."
+if [ ! -f ${SCRIPT_DIR}/../posdist ]; then
+    echo "No binary file 'posdist' detected in the expected path."
     echo "Compile the posdist program using 'make groan=PATH_TO_GROAN_LIBRARY'."
     echo "No tests were run."
     exit 1
 fi
 
-if [ ! -f md.gro ]; then
+if [ ! -f ${SCRIPT_DIR}/md.gro ]; then
     echo "No md.gro file detected in the directory."
     echo "No tests were run."
     exit 1
 fi
 
-if [ ! -f md.xtc ]; then
+if [ ! -f ${SCRIPT_DIR}/md.xtc ]; then
     echo "No md.xtc file detected in the directory."
     echo "No tests were run."
     exit 1
 fi
 
-if [ ! -f index.ndx ]; then
+if [ ! -f ${SCRIPT_DIR}/index.ndx ]; then
     echo "No index.ndx file detected in the directory."
     echo "No tests were run."
     exit 1
 fi
 
-if [ ! -d expected ]; then
+if [ ! -d ${SCRIPT_DIR}/expected ]; then
     echo "No 'expected' directory detected."
     echo "No tests were run."
     exit 1
+fi
+
+if [ ${PWD} != ${SCRIPT_DIR} ]; then
+    cp ${SCRIPT_DIR}/md.gro ${SCRIPT_DIR}/md.xtc ${SCRIPT_DIR}/index.ndx .
 fi
 
 run_test_file "-c md.gro -s Membrane"
@@ -85,6 +91,10 @@ run_test_file "-c md.gro -f md.xtc -s Membrane -w -t"
 
 run_test_file "-c md.gro -f md.xtc -s Membrane -w -t -y"
 
+if [ ${PWD} != ${SCRIPT_DIR} ]; then
+    rm -f md.gro md.xtc index.ndx
+fi
+    
 if [ $FAILED_TESTS -eq 0 ]; then
     echo "All tests passed. Removing temporary files."
     rm -f tmp*.dat
