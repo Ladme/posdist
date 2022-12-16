@@ -1,0 +1,13 @@
+
+Parameters for PosDist calculation:
+>>> gro file:        md.gro
+>>> xtc file:        md.xtc
+>>> ndx file:        index.ndx
+>>> selection 1:     Membrane
+>>> dimensions:      xyz
+>>> timewise:        no
+>>> whole:           yes
+
+Step: 0. Time: 0 psStep: 500000. Time: 10000 ps
+Average center of geometry of selection 'Membrane': x = 8.183    y = 5.888    z = 5.776    
+

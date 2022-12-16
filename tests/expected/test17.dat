@@ -1,0 +1,13 @@
+
+Parameters for PosDist calculation:
+>>> gro file:        md.gro
+>>> ndx file:        index.ndx
+>>> selection 1:     Membrane
+>>> selection 2:     Protein
+>>> dimensions:      xyz
+>>> timewise:        no
+>>> whole:           yes
+>>> reference:       no
+
+xyz-distance between the centers of selections 'Membrane' and 'Protein': 8.386
+

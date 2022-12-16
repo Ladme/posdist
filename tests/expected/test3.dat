@@ -1,0 +1,11 @@
+
+Parameters for PosDist calculation:
+>>> gro file:        md.gro
+>>> ndx file:        index.ndx
+>>> selection 1:     Membrane
+>>> dimensions:      xyz
+>>> timewise:        no
+>>> whole:           yes
+
+Center of geometry of selection 'Membrane': x = 3.575    y = 8.009    z = 5.780    
+

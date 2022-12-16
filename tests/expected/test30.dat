@@ -1,0 +1,13 @@
+Average xy-distances between the atoms of selections 'N_term' and 'C_term'.
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   1.089
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   1.159
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   1.280
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   1.106
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   1.171
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   1.315
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   1.047
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   1.069
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   1.190

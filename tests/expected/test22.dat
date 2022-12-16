@@ -1,0 +1,14 @@
+
+Parameters for PosDist calculation:
+>>> gro file:        md.gro
+>>> xtc file:        md.xtc
+>>> ndx file:        index.ndx
+>>> selection 1:     Membrane
+>>> selection 2:     Protein
+>>> dimensions:      y
+>>> timewise:        no
+>>> whole:           yes
+>>> reference:       no
+
+Step: 0. Time: 0 psStep: 500000. Time: 10000 psAverage y-distance between the centers of selections 'Membrane' and 'Protein': -1.570
+

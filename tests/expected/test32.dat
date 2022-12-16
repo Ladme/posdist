@@ -1,0 +1,1314 @@
+xyz-distances between the atoms of selections 'N_term' and 'C_term' in time.
+t = 0.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.817
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.909
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.054
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.696
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.769
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.925
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.545
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.607
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.746
+t = 100.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.827
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.000
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.132
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.689
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.850
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.998
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.563
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.709
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.847
+t = 200.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.843
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.969
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.052
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.688
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.814
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.917
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.474
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.584
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.682
+t = 300.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.828
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.005
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.143
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.660
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.827
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.979
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.511
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.664
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.802
+t = 400.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.857
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.017
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.171
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.668
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.827
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.999
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.568
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.706
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.878
+t = 500.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.853
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.029
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.233
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.709
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.872
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.090
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.550
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.702
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.911
+t = 600.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.857
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.927
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.044
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.726
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.800
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.938
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.551
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.605
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.743
+t = 700.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.884
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.981
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.156
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.719
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.814
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.006
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.566
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.641
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.830
+t = 800.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.941
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.037
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.213
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.789
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.876
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.067
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.615
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.686
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.870
+t = 900.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.853
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.970
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.075
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.714
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.824
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.949
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.569
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.661
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.775
+t = 1000.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.725
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.872
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.007
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.688
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.829
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.985
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.541
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.661
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.818
+t = 1100.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.880
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.071
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.156
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.680
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.864
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.966
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.525
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.694
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.786
+t = 1200.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.857
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.999
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.139
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.723
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.861
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.020
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.538
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.659
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.813
+t = 1300.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.806
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.959
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.142
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.682
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.817
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.013
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.565
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.685
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.869
+t = 1400.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.840
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.961
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.076
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.701
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.816
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.950
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.560
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.654
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.783
+t = 1500.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.825
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.977
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.115
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.653
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.791
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.940
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.518
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.644
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.778
+t = 1600.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.802
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.953
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.124
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.662
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.804
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.992
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.561
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.684
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.865
+t = 1700.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.747
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.874
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.027
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.620
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.728
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.893
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.546
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.642
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.791
+t = 1800.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.689
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.867
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.061
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.562
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.724
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.931
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.548
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.695
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.891
+t = 1900.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.747
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.976
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.099
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.583
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.805
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.945
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.533
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.738
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.871
+t = 2000.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   4.009
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.137
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.242
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.825
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.950
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.073
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.668
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.774
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.891
+t = 2100.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.824
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.015
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.096
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.662
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.843
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.943
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.581
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.745
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.836
+t = 2200.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.830
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.025
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.160
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.689
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.880
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.034
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.630
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.802
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.952
+t = 2300.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.878
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.935
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.028
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.683
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.731
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.839
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.560
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.590
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.682
+t = 2400.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.920
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.020
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.183
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.723
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.814
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.990
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.553
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.630
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.794
+t = 2500.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.985
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.122
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.283
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.771
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.901
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.076
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.585
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.704
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.866
+t = 2600.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.802
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.910
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.139
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.615
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.709
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.948
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.524
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.602
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.831
+t = 2700.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.771
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.956
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.156
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.532
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.711
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.923
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.424
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.588
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.795
+t = 2800.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.864
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.047
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.219
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.650
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.827
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.013
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.548
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.709
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.887
+t = 2900.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.737
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.953
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.112
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.623
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.830
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.009
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.552
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.742
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.922
+t = 3000.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.698
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.932
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.076
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.601
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.828
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.992
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.469
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.681
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.842
+t = 3100.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.822
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.046
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.174
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.684
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.901
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.047
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.594
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.794
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.934
+t = 3200.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.777
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.924
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.093
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.653
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.796
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.983
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.487
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.611
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.799
+t = 3300.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.841
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.083
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.139
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.691
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.930
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.006
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.588
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.812
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.883
+t = 3400.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.803
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.954
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.160
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.653
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.789
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.005
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.513
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.639
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.841
+t = 3500.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.814
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.059
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.144
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.655
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.893
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.997
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.571
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.796
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.893
+t = 3600.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.838
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.013
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.209
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.665
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.834
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.045
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.469
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.627
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.829
+t = 3700.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.809
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.984
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.143
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.653
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.811
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.978
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.474
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.630
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.780
+t = 3800.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.851
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.082
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.229
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.673
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.904
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.067
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.535
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.750
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.915
+t = 3900.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.812
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.993
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.141
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.645
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.817
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.982
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.553
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.707
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.863
+t = 4000.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.786
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.037
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.162
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.660
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.902
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.046
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.565
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.795
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.933
+t = 4100.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.798
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.024
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.175
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.652
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.866
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.033
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.525
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.728
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.884
+t = 4200.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.847
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.026
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.153
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.647
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.820
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.964
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.538
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.693
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.829
+t = 4300.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.848
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.029
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.191
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.701
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.872
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.052
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.553
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.709
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.880
+t = 4400.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.833
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.049
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.107
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.738
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.948
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.026
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.598
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.793
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.862
+t = 4500.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.879
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.080
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.208
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.734
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.929
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.075
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.627
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.806
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.948
+t = 4600.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.784
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.017
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.144
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.594
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.825
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.969
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.484
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.699
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.840
+t = 4700.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.791
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.983
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.120
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.631
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.809
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.959
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.527
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.693
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.829
+t = 4800.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.833
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.003
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.116
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.733
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.890
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.021
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.548
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.691
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.812
+t = 4900.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.746
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.983
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.037
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.656
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.887
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.963
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.516
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.732
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.805
+t = 5000.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.808
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.976
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.058
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.727
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.882
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.982
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.585
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.724
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.812
+t = 5100.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.930
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.084
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.231
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.821
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.973
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.138
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.679
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.811
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.976
+t = 5200.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.790
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.007
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.121
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.586
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.802
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.933
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.479
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.677
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.808
+t = 5300.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.737
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.970
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.150
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.608
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.827
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.022
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.463
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.673
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.858
+t = 5400.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.831
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.040
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.185
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.722
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.917
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.074
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.592
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.774
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.919
+t = 5500.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.799
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.970
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.124
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.720
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.876
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.046
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.634
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.774
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.933
+t = 5600.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.660
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.865
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.079
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.549
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.739
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.968
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.487
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.662
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.884
+t = 5700.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.729
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.915
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.050
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.548
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.723
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.876
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.510
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.667
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.811
+t = 5800.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.845
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.015
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.182
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.639
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.798
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.974
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.559
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.705
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.866
+t = 5900.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.773
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.951
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.133
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.645
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.811
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.009
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.492
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.644
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.834
+t = 6000.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.793
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.952
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.094
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.687
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.829
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.985
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.542
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.673
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.814
+t = 6100.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.710
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.925
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.026
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.593
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.801
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.922
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.517
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.706
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.821
+t = 6200.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.980
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.144
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.235
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.804
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.968
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.078
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.679
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.823
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.932
+t = 6300.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.855
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.020
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.165
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.682
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.851
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.013
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.552
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.701
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.866
+t = 6400.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.818
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.990
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.175
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.641
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.805
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.004
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.565
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.710
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.905
+t = 6500.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.856
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.060
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.159
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.768
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.966
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.086
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.643
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.824
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.938
+t = 6600.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.749
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.925
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.112
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.649
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.813
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.018
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.445
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.596
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.795
+t = 6700.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.821
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.923
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.088
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.619
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.711
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.890
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.444
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.526
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.691
+t = 6800.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.878
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.019
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.186
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.679
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.807
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.984
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.611
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.725
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.887
+t = 6900.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.734
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.900
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.960
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.692
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.845
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.927
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.491
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.629
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.702
+t = 7000.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.801
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.021
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.204
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.652
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.871
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.070
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.535
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.736
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.939
+t = 7100.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.802
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.980
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.164
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.609
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.784
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.983
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.477
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.636
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.833
+t = 7200.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.740
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.981
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.186
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.552
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.786
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.005
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.461
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.680
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.901
+t = 7300.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.938
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.083
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.242
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.769
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.910
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.086
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.603
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.726
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.898
+t = 7400.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.926
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.116
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.265
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.770
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.961
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.127
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.641
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.814
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.981
+t = 7500.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.911
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.088
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.196
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.703
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.879
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.005
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.595
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.751
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.877
+t = 7600.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.864
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.092
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.215
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.692
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.916
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.058
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.614
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.821
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.963
+t = 7700.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.822
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.985
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.107
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.667
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.823
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.962
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.541
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.677
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.809
+t = 7800.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.884
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.085
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.210
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.739
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.931
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.073
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.592
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.769
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.904
+t = 7900.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.851
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.038
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.215
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.693
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.865
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.057
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.571
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.732
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.915
+t = 8000.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.923
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.026
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.195
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.781
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.870
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.051
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.624
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.699
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.866
+t = 8100.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.875
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.078
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.181
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.761
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.953
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.072
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.558
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.740
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.846
+t = 8200.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.905
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.014
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.136
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.788
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.889
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.029
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.565
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.653
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.783
+t = 8300.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.928
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.016
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.116
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.807
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.891
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.011
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.665
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.728
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.842
+t = 8400.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.935
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.097
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.263
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.751
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.905
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.087
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.547
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.689
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.863
+t = 8500.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.989
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.092
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.153
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.852
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.963
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.044
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.657
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.750
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.832
+t = 8600.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.975
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.111
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.187
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.797
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.936
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.030
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.618
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.737
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.827
+t = 8700.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.935
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.109
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.238
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.780
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.949
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.096
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.625
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.778
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.915
+t = 8800.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.772
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.947
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.039
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.680
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.851
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.966
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.557
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.709
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.823
+t = 8900.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.787
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.981
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.088
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.608
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.796
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.920
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.497
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.667
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.782
+t = 9000.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.882
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.016
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.195
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.712
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.837
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.030
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.572
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.680
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.863
+t = 9100.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.868
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.024
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.103
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.744
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.896
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.996
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.551
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.687
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.781
+t = 9200.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.855
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.946
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.094
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.711
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.799
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.965
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.526
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.596
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.757
+t = 9300.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.851
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.964
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.083
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.649
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.752
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.885
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.466
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.560
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.676
+t = 9400.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.904
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.993
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.162
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.698
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.776
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.956
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.494
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.566
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.732
+t = 9500.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.894
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.006
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.162
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.651
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.759
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.927
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.532
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.621
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.778
+t = 9600.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.848
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.943
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.093
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.644
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.736
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.901
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.508
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.579
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.736
+t = 9700.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.968
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.060
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.187
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.776
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.867
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.011
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.559
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.635
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.770
+t = 9800.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.889
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.029
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.173
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.733
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.879
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.040
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.527
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.655
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.819
+t = 9900.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.937
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.081
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.163
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.788
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.931
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.034
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.616
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.741
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.841
+t = 10000.000000
+Atom BB (id: 1) of residue GLY (resid: 1):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.888
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   4.066
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.189
+Atom BB (id: 2) of residue LYS (resid: 2):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.725
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.900
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   4.041
+Atom BB (id: 5) of residue LYS (resid: 3):
+>>> Atom BB (id: 54) of residue LYS (resid: 27):   3.542
+>>> Atom BB (id: 57) of residue LYS (resid: 28):   3.702
+>>> Atom BB (id: 60) of residue CYS (resid: 29):   3.838
