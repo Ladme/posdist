@@ -117,6 +117,7 @@ int get_arguments(
 
     if (*reference && *whole) {
         fprintf(stderr, "Reference option (-r) as well as whole option (-w) were selected. The reference option will be ignored.\n");
+        *reference = 0;
     }
 
     return 0;
@@ -128,15 +129,15 @@ void print_usage(const char *program_name)
     printf("\nOPTIONS\n");
     printf("-h               print this message and exit\n");
     printf("-c STRING        gro file to read\n");
-    printf("-f STRING        xtc file to read\n");
+    printf("-f STRING        xtc file to read (optional)\n");
     printf("-n STRING        ndx file to read (optional, default: index.ndx)\n");
-    printf("-s / -a STRING   selection of atoms\n");
+    printf("-s/-a STRING     selection of atoms\n");
     printf("-b STRING        another selection of atoms (optional)\n");
     printf("-o STRING        output file (default: posdist.dat)\n");
     printf("-x/-y/-z         dimension(s) that shall be treated (default: xyz)\n");
     printf("-t               calculate properties in time (optional)\n");
-    printf("-w               calculate center of selection(s)\n");
-    printf("-r               treat the selection -b as a reference point\n");
+    printf("-w               calculate center of selection(s) (optional)\n");
+    printf("-r               treat the selection -b as a reference point (optional)\n");
     printf("\n");
 }
 
@@ -295,6 +296,7 @@ int calc_position(
 
         if (!validate_xtc(xtc_file, (int) system->n_atoms)) {
             fprintf(stderr, "Number of atoms in %s does not match the gro file.\n", xtc_file);
+            xdrfile_close(xtc);
             return 1;
         }
 
@@ -306,6 +308,7 @@ int calc_position(
                 output = fopen(output_file, "w");
                 if (output == NULL) {
                     fprintf(stderr, "Could not open output file '%s'\n", output_file);
+                    xdrfile_close(xtc);
                     return 1;
                 }
 
@@ -355,6 +358,7 @@ int calc_position(
             FILE *output = fopen(output_file, "w");
             if (output == NULL) {
                 fprintf(stderr, "Could not open output file '%s'\n", output_file);
+                xdrfile_close(xtc);
                 return 1;
             }
 
@@ -470,7 +474,7 @@ int calc_distance(
             center_of_geometry(selection1, center1, system->box);
             center_of_geometry(selection2, center2, system->box);
             
-            printf("%s-distance between the centers of selection '%s' and '%s': %.3f\n", dimensions, selection1_query, selection2_query, 
+            printf("%s-distance between the centers of selections '%s' and '%s': %.3f\n", dimensions, selection1_query, selection2_query, 
                     calc_distance_dim(center1, center2, dim, system->box, 1));
         } else {
             // open output file
@@ -505,11 +509,199 @@ int calc_distance(
                 }
 
             }
+
+            fclose(output);
         }
+     // if an xtc file is provided
+    } else {
+        // open and validate an xtc file
+        XDRFILE *xtc = xdrfile_open(xtc_file, "r");
+        if (xtc == NULL) {
+            fprintf(stderr, "File %s could not be read as an xtc file.\n", xtc_file);
+            return 1;
+        }
+
+        if (!validate_xtc(xtc_file, (int) system->n_atoms)) {
+            fprintf(stderr, "Number of atoms in %s does not match the gro file.\n", xtc_file);
+            xdrfile_close(xtc);
+            return 1;
+        }
+
+        // open output file, if necessary
+        FILE *output = NULL;
+        if (!whole || timewise) {
+            output = fopen(output_file, "w");
+            if (output == NULL) {
+                fprintf(stderr, "Could not open output file '%s'\n", output_file);
+                xdrfile_close(xtc);
+                return 1;
+            }
+        }
+
+        // calculate the distance between the centers of geometry
+        if (whole) {
+            float av_dist = 0.0;
+            size_t n_steps = 0;
+
+            if (timewise) {
+                fprintf(output, "%s-distances between the centers of selections '%s' and '%s' in time.\n", dimensions, selection1_query, selection2_query);
+            }
+
+            while (read_xtc_step(xtc, system) == 0) {
+                // print info about the progress of reading and writing
+                if ((int) system->time % PROGRESS_FREQ == 0) {
+                    printf("Step: %d. Time: %.0f ps\r", system->step, system->time);
+                    fflush(stdout);
+                }
+
+                vec_t center1 = {0.0};
+                vec_t center2 = {0.0};
+
+                center_of_geometry(selection1, center1, system->box);
+                center_of_geometry(selection2, center2, system->box);
+
+                float distance = calc_distance_dim(center1, center2, dim, system->box, 1);
+                
+                if (timewise) {
+                    fprintf(output, "t = %f    d = %f\n", system->time, distance);
+                } else {
+                    av_dist += distance;
+                    ++n_steps;
+                }
+            }
+
+            if (!timewise) {
+                printf("Average %s-distance between the centers of selections '%s' and '%s': %.3f\n", dimensions, selection1_query, selection2_query, av_dist / n_steps);
+            }
+        }
+
+        // calculate distances between the atoms of selection1 and center of selection2
+        else if (reference) {
+            float *av_dist = NULL; 
+            if (!timewise) av_dist = calloc(selection1->n_atoms, sizeof(float));
+            size_t n_steps = 0;
+
+            if (timewise) {
+                fprintf(output, "%s-distances between the atoms of selection '%s' and center of selection '%s' in time.\n", dimensions, selection1_query, selection2_query);
+            } else {
+                fprintf(output, "Average %s-distances between the atoms of selection '%s' and center of selection '%s'.\n", dimensions, selection1_query, selection2_query);
+            }
+
+            while (read_xtc_step(xtc, system) == 0) {
+                // print info about the progress of reading and writing
+                if ((int) system->time % PROGRESS_FREQ == 0) {
+                    printf("Step: %d. Time: %.0f ps\r", system->step, system->time);
+                    fflush(stdout);
+                }
+
+                if (timewise) fprintf(output, "t = %f\n", system->time);
+
+                vec_t center2 = {0.0};
+
+                center_of_geometry(selection2, center2, system->box);
+
+                for (size_t i = 0; i < selection1->n_atoms; ++i) {
+                    atom_t *atom = selection1->atoms[i];
+
+                    float distance = calc_distance_dim(atom->position, center2, dim, system->box, 1);
+
+                    if (timewise) {
+                        fprintf(output, "Atom %s (id: %d) of residue %s (resid: %d):    %.3f\n", atom->atom_name, 
+                                atom->atom_number, atom->residue_name, atom->residue_number, distance);
+                    } else {
+                        av_dist[i] += distance;
+                    }
+                }
+
+                ++n_steps;
+            }
+
+            if (!timewise) {
+                for (size_t i = 0; i < selection1->n_atoms; ++i) {
+                    atom_t *atom = selection1->atoms[i];
+
+                    fprintf(output, "Atom %s (id: %d) of residue %s (resid: %d):    %.3f\n", atom->atom_name, 
+                                atom->atom_number, atom->residue_name, atom->residue_number, av_dist[i] / n_steps);
+                }
+            }
+            
+            free(av_dist);
+
+        }
+
+        // calculates distances between the individual atoms of selection1 and individual atoms of selection2
+        else {
+
+            float *av_dist = NULL; 
+            if (!timewise) av_dist = calloc(selection1->n_atoms * selection2->n_atoms, sizeof(float));
+            size_t n_steps = 0;
+
+            if (timewise) {
+                fprintf(output, "%s-distances between the atoms of selections '%s' and '%s' in time.\n", dimensions, selection1_query, selection2_query);
+            } else {
+                fprintf(output, "Average %s-distances between the atoms of selections '%s' and '%s'.\n", dimensions, selection1_query, selection2_query);
+            }
+
+            while (read_xtc_step(xtc, system) == 0) {
+                // print info about the progress of reading and writing
+                if ((int) system->time % PROGRESS_FREQ == 0) {
+                    printf("Step: %d. Time: %.0f ps\r", system->step, system->time);
+                    fflush(stdout);
+                }
+
+                if (timewise) fprintf(output, "t = %f\n", system->time);
+
+                for (size_t i = 0; i < selection1->n_atoms; ++i) {
+                    atom_t *atom1 = selection1->atoms[i];
+                    if (timewise) {
+                        fprintf(output, "Atom %s (id: %d) of residue %s (resid: %d):\n", atom1->atom_name, 
+                                atom1->atom_number, atom1->residue_name, atom1->residue_number);
+                    }
+                    
+                    for (size_t j = 0; j < selection2->n_atoms; ++j) {
+                        atom_t *atom2 = selection2->atoms[j];
+
+                        float distance = calc_distance_dim(atom1->position, atom2->position, dim, system->box, 1);
+
+                        if (timewise) {
+                            fprintf(output, ">>> Atom %s (id: %d) of residue %s (resid: %d):   %.3f\n", atom2->atom_name, 
+                                atom2->atom_number, atom2->residue_name, atom2->residue_number, distance);
+                        } else {
+                            av_dist[i * selection2->n_atoms + j] += distance;
+                        }
+                    }
+
+                }
+
+                ++n_steps;
+
+            }
+
+            if (!timewise) {
+                for (size_t i = 0; i < selection1->n_atoms; ++i) {
+                    atom_t *atom1 = selection1->atoms[i];
+                    fprintf(output, "Atom %s (id: %d) of residue %s (resid: %d):\n", atom1->atom_name, 
+                            atom1->atom_number, atom1->residue_name, atom1->residue_number);
+
+                    for (size_t j = 0; j < selection2->n_atoms; ++j) {
+                        atom_t *atom2 = selection2->atoms[j];
+                        fprintf(output, ">>> Atom %s (id: %d) of residue %s (resid: %d):   %.3f\n", atom2->atom_name, 
+                                atom2->atom_number, atom2->residue_name, atom2->residue_number, av_dist[i * selection2->n_atoms + j] / n_steps);
+                    }
+                }
+            }            
+
+            free(av_dist);
+
+
+        }
+
+        if (!whole || timewise) fclose(output);
+        xdrfile_close(xtc);
+    
     }
 
     return 0;
-
 }
 
 int main(int argc, char **argv)

@@ -5,6 +5,17 @@ PWD=$(pwd)
 N_TESTS=1
 FAILED_TESTS=0
 
+if [ "$1" = "VALGRIND" ]; then 
+    VALGRIND=1
+    which valgrind >/dev/null 2>/dev/null
+    if [ $? -ne 0 ]; then
+	echo "Valgrind was not found in PATH. Running tests without valgrind."
+	VALGRIND=0
+    fi
+else 
+    VALGRIND=0
+fi
+
 test_test() {
     diff $1 $2 >/dev/null 2>/dev/null
     
@@ -17,7 +28,7 @@ test_test() {
 }
 
 run_test_file() {
-    printf "%-70s" "Test #${N_TESTS}: posdist $1 "
+    printf "%-100s" "Test #${N_TESTS}: posdist $1 "
     ${SCRIPT_DIR}/../posdist $1 -o tmp${N_TESTS}.dat >/dev/null 2>/dev/null
     
     if [ $? -ne 0 ]; then
@@ -27,12 +38,22 @@ run_test_file() {
         return 1
     fi
     
+    if [ $VALGRIND -eq 1 ]; then
+	valgrind --leak-check=full --track-fds=yes --error-exitcode=1 ${SCRIPT_DIR}/../posdist $1 -o tmp_val.dat >/dev/null 2>/dev/null
+	if [ $? -ne 0 ]; then
+	    echo "NOK [VALGRIND ERROR]"
+	    FAILED_TESTS=$(( $FAILED_TESTS + 1 ))
+	    N_TESTS=$(( $N_TESTS + 1 ))
+	    return 1
+	fi
+    fi
+    
     test_test "tmp${N_TESTS}.dat" "${SCRIPT_DIR}/expected/test${N_TESTS}.dat"
     N_TESTS=$(( $N_TESTS + 1 ))
 }
 
 run_test_stdout() {
-    printf "%-70s" "Test #${N_TESTS}: posdist $1 "
+    printf "%-100s" "Test #${N_TESTS}: posdist $1 "
     ${SCRIPT_DIR}/../posdist $1 >tmp${N_TESTS}.dat 2>/dev/null
     
     if [ $? -ne 0 ]; then 
@@ -42,7 +63,43 @@ run_test_stdout() {
 	return 1
     fi
     
+    if [ $VALGRIND -eq 1 ]; then
+	valgrind --leak-check=full --track-fds=yes --error-exitcode=1 ${SCRIPT_DIR}/../posdist $1 >tmp_val.dat 2>/dev/null
+	if [ $? -ne 0 ]; then
+	    echo "NOK [VALGRIND ERROR]"
+	    FAILED_TESTS=$(( $FAILED_TESTS + 1 ))
+	    N_TESTS=$(( $N_TESTS + 1 ))
+	    return 1
+	fi
+    fi
+    
+    
     test_test "tmp${N_TESTS}.dat" "${SCRIPT_DIR}/expected/test${N_TESTS}.dat"
+    N_TESTS=$(( $N_TESTS + 1 ))
+}
+
+run_test_fail() {
+    printf "%-100s" "Test #${N_TESTS}: posdist $1 "
+    
+    ${SCRIPT_DIR}/../posdist $1 >/dev/null 2>/dev/null
+    if [ $? -eq 0 ]; then
+	echo "NOK [SHOULD HAVE FAILED]"
+	FAILED_TESTS=$(( $FAILED_TESTS + 1 ))
+	N_TESTS=$(( $N_TESTS + 1 ))
+	return 1
+    fi
+    
+    if [ $VALGRIND -eq 1 ]; then
+	valgrind --leak-check=full --track-fds=yes --error-exitcode=99 ${SCRIPT_DIR}/../posdist $1 >tmp_val.dat 2>/dev/null
+	if [ $? -eq 99 ]; then
+	    echo "NOK [VALGRIND ERROR]"
+	    FAILED_TESTS=$(( $FAILED_TESTS + 1 ))
+	    N_TESTS=$(( $N_TESTS + 1 ))
+	    return 1
+	fi
+    fi
+    
+    echo "OK [FAILED PROPERLY]"
     N_TESTS=$(( $N_TESTS + 1 ))
 }
 
@@ -98,10 +155,43 @@ run_test_file "-c md.gro -f md.xtc -s Membrane -w -t -y"
 # tests for distance calculations
 run_test_file "-c md.gro -a Membrane -b Protein"
 run_test_file "-c md.gro -s Membrane -b Protein -x -y"
+run_test_file "-c md.gro -a Protein -b Protein"
+run_test_file "-c md.gro -a Protein -b Protein -z"
 run_test_stdout "-c md.gro -a Membrane -b Protein -w"
 run_test_stdout "-c md.gro -a Membrane -b Protein -w -x"
 run_test_file "-c md.gro -a Protein -b Membrane -r"
 run_test_file "-c md.gro -a Protein -b Membrane -r -y -z"
+
+run_test_stdout "-c md.gro -f md.xtc -a Membrane -b Protein -w"
+run_test_stdout "-c md.gro -f md.xtc -a Membrane -b Protein -w -y"
+run_test_file "-c md.gro -f md.xtc -a Membrane -b Protein -w -t"
+run_test_file "-c md.gro -f md.xtc -s Membrane -b Protein -w -t -x -z"
+run_test_file "-c md.gro -f md.xtc -a Protein -b Membrane -r"
+run_test_file "-c md.gro -f md.xtc -s Protein -b Membrane -r -x"
+run_test_file "-c md.gro -f md.xtc -a Protein -b Membrane -r -t"
+run_test_file "-c md.gro -f md.xtc -a Protein -b Membrane -r -t -z"
+run_test_file "-c md.gro -f md.xtc -a N_term -b C_term"
+run_test_file "-c md.gro -f md.xtc -a N_term -b C_term -x -y"
+run_test_file "-c md.gro -f md.xtc -a Protein -b Protein"
+run_test_file "-c md.gro -f md.xtc -a N_term -b C_term -t"
+run_test_file "-c md.gro -f md.xtc -a N_term -b C_term -t -x -z"
+
+# failed tests
+run_test_fail "-s Membrane -o tmp_fail.dat"
+run_test_fail "-c md.gro -o tmp_fail.dat"
+run_test_fail "-c nonexistent.gro -s Membrane -o tmp_fail.dat"
+run_test_fail "-c md.gro -f nonexistent.xtc -s Membrane -o tmp_fail.dat"
+run_test_fail "-c md.gro -f nonexistent.xtc -a Membrane -b Protein -o tmp_fail.dat"
+run_test_fail "-c md.gro -f md.xtc -s Something -o tmp_fail.dat"
+run_test_fail "-c md.gro -s Something -o tmp_fail.dat"
+run_test_fail "-c md.gro -a Something -b Anything -o tmp_fail.dat"
+run_test_fail "-c md.gro -f md.xtc -a Membrane -o unreachable/dist.dat"
+run_test_fail "-c md.gro -a Membrane -o unreachable/dist.dat"
+run_test_fail "-c md.gro -f md.xtc -a Membrane -w -t -o unreachable/dist.dat"
+run_test_fail "-c md.gro -f md.xtc -a Membrane -b Protein -o unreachable/dist.dat"
+run_test_fail "-c md.gro -a Membrane -b Protein -o unreachable/dist.dat"
+run_test_fail "-c md.gro -f fail_md.xtc -a Membrane -o tmp_fail.dat"
+run_test_fail "-c md.gro -f fail_md.xtc -a Membrane -b Protein -o tmp_fail.dat"
 
 if [ ${PWD} != ${SCRIPT_DIR} ]; then
     rm -f md.gro md.xtc index.ndx
